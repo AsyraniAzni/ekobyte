@@ -1,0 +1,26 @@
+.footer {
+  &.style-2 {
+    background-color: $gray-900;
+    .te-footer-sec {
+      border-bottom: 1px solid rgba(225, 225, 225, 0.3);
+      padding-top: 80px;
+      padding-bottom: 70px;
+    }
+    .te-footer-widget-title,
+    .wp-block-heading {
+      color: $white;
+      font-size: 24px;
+    }
+    .footer-bottom-area .te-copyright-text p,
+    .te-footer-widget.te_widget_nav_menu li a,
+    .te-footer-widget .te_widget_latest_post ul li .te-latest-post-desc .te-latest-post-title a,
+    .te-footer-widget .te_widget_latest_post ul li .te-latest-post-desc .te-latest-post-title,
+    .te-footer-widget .te_widget_latest_post ul li .te-latest-post-desc .te-latest-post-meta,
+    .te-footer-widget .te-subscribe-form-wrapper,
+    .te-footer-bottom-menu ul li a,
+    .footer-bottom-area .te-copyright-text p a {
+      color: $white;
+    }
+
+  }
+}
